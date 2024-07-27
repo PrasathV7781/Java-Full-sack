@@ -39,7 +39,6 @@ public class StudentGrades {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("Enter the choice");
             System.out.println("1. Add Student");
             System.out.println("2. Remove Student");
             System.out.println("3. Display Student Grade");
