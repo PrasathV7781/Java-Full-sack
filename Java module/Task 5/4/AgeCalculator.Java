@@ -29,3 +29,6 @@ public class AgeCalculator {
         scanner.close();
     }
 }
+
+/* Output: Enter your birthdate (yyyy-mm-dd): 1990-05-15
+           Your age is: 34 years, 2 months, and 30 days.  **/
