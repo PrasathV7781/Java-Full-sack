@@ -2,7 +2,7 @@ public class Person {
     private String name;
     private int age;
 
-    // Constructor with default age
+    // Constructor with name age
     public Person(String name) {
         this.name = name;
         this.age = 18;
