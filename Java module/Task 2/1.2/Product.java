@@ -6,7 +6,7 @@ class Product {
     private double price;
     private int quantity;
 
-    // Parameterized constructor
+    // Parameterized constructor product id as pid,price,quantity
     public Product(int pid, double price, int quantity) {
         this.pid = pid;
         this.price = price;
@@ -30,6 +30,7 @@ class Product {
     // Method to calculate total amount spent on all products
     public static double calculateTotalAmount(Product[] products) {
         double totalAmount = 0;
+        // loop using for purchase product price calculate
         for (Product product : products) {
             totalAmount += product.getPrice() * product.getQuantity();
         }
