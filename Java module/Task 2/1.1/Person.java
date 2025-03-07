@@ -8,7 +8,7 @@ public class Person {
         this.age = 18;
     }
 
-    // Constructor with specified age
+    // Constructor with specified name and age
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
