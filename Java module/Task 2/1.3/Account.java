@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Account {
     private double balance;
 
-    // No-argument constructor
+    // No-argument constructor using account balance
     public Account() {
         this.balance = 0.0;
     }
